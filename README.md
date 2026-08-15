@@ -22,7 +22,6 @@ All themes and their assets are maintained here and showcased in the Discord ser
 
 | Theme | Palette | Preview |
 |---|---|---|
-| **Onyx** | Monochrome dark / white glass | `preview/onyx.jpg` |
 | **Makima Red** | Deep red / black | `assets/makima.jpg` |
 | **Rezee Purple** | Violet / dark purple | `assets/reze.png` |
 | **Ada Wine** | Blood Crimson / near-black | `assets/adawong.png` |
