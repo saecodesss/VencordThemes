@@ -25,7 +25,7 @@ All themes and their assets are maintained here and showcased in the Discord ser
 | **Onyx** | Monochrome dark / white glass | `preview/onyx.jpg` |
 | **Makima Red** | Deep red / black | `assets/makima.jpg` |
 | **Rezee Purple** | Violet / dark purple | `assets/reze.png` |
-| **Ada Wine** | Burgundy / near-black | `assets/adawong.png` |
+| **Ada Wine** | Blood Crimson / near-black | `assets/adawong.png` |
 
 Each `.theme.css` file is self-contained — download the one you want, no need to clone the full repo.
 
