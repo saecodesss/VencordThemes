@@ -1,7 +1,7 @@
 /**
- * @name Makima Theme
+ * @name Ada Wine
  * @version 1.0
- * @description Makima Theme for Vencord / BetterDiscord.
+ * @description Ada Wong theme for Vencord / BetterDiscord.
  * @author sae.codes
  * @source https://discord.gg/3cQMuTD5ge
  *//*
@@ -18,19 +18,19 @@
 
 ##########################################################################*/
 :root {
-  /* COLORS */
-  --themeColor1: rgb(207, 30, 42); /* Theme's color 1 */
-  --themeColor2: rgb(150, 18, 27); /* Theme's color 2 */
+  /* COLORS — deep wine/burgundy pulled from the dress, muted against the near-black gothic bg */
+  --themeColor1: rgb(122, 26, 42); /* Theme's color 1 — wine/burgundy */
+  --themeColor2: rgb(58, 12, 20); /* Theme's color 2 — near-black maroon */
 
   /* CUSTOM FONT */
   --customFont: 'Quicksand', monospace; /* Custom font, change the name in 'font name here', you must import the font first */
 
   /* HOME BUTTON */
-  --homeImage: url('https://raw.githubusercontent.com/saecodesss/VencordThemes/main/assets/makimaicon.jpg');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImage: url('https://raw.githubusercontent.com/saecodesss/VencordThemes/main/assets/adaicon.jpg');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
   /* BACKGROUND */
-  --backgroundImage: url('https://raw.githubusercontent.com/saecodesss/VencordThemes/main/assets/makimaaa.jpg');/* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundImage: url('https://raw.githubusercontent.com/saecodesss/VencordThemes/main/assets/adawong.png');/* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundColor: rgba(0, 0, 0, 0.6); /* Background color */
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
   --backgroundSize: Cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
