@@ -1,105 +1,83 @@
-# 🎨 Discord Themes
-
 <div align="center">
 
-### A collection of custom Discord themes crafted by **sae.codess**
+# Discord Themes
 
-Customize your Discord experience with unique themes, styles, colors, and designs.
+Custom Vencord / BetterDiscord themes — dark, translucent, minimal.
 
-[💬 Join the Discord](https://discord.gg/3cQMuTD5ge) • [🐛 Report a Bug](https://discord.gg/3cQMuTD5ge) • [💡 Suggest a Theme](https://discord.gg/3cQMuTD5ge)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/3cQMuTD5ge)
+[![Made by sae.codes](https://img.shields.io/badge/made%20by-sae.codes-8A2BE2)](https://github.com/saecodess)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](#license)
 
 </div>
 
 ---
 
-## ✨ About
+## Overview
 
-Welcome to my collection of **custom Discord themes**.
+This repository hosts a collection of custom Discord client themes built on the Neutron CSS core. Each theme pairs a curated background with a matched accent palette, tuned for readability, translucency, and low visual noise.
 
-This repository contains themes designed and maintained by **sae.codess**, with new designs, improvements, and updates being released over time.
+All themes and their assets are maintained here and showcased in the Discord server linked below, where support and updates are also posted.
 
-Want to discover more themes?  
-Join our Discord community where custom themes, previews, updates, suggestions, and community discussions are shared.
+## Themes
 
-> 🎨 **More themes are available in our Discord server.**
+| Theme | Palette | Preview |
+|---|---|---|
+| **Onyx** | Monochrome dark / white glass | `assets/darkminimal.jpg` |
+| **Makima Red** | Deep red / black | `assets/makimaaa.jpg` |
+| **Rezee Purple** | Violet / dark purple | `assets/rezee.png` |
+| **Ada Wine** | Burgundy / near-black | `assets/adawong.png` |
+
+Each `.theme.css` file is self-contained — download the one you want, no need to clone the full repo.
+
+## Installation
+
+Requires **Vencord** or **BetterDiscord** installed first.
+
+1. **Download** the theme file (`.theme.css`) you want and save it somewhere you'll remember.
+2. **Open your themes folder**
+   - Open Discord Settings
+   - Go to the **Themes** tab
+   - Click **Open Themes Folder**
+3. **Move the file** into that folder.
+4. **Reload Discord** — `Ctrl + R` (Windows/Linux) or `Cmd + R` (macOS).
+5. **Enable the theme**
+   - Discord Settings → Themes
+   - Toggle the switch next to your theme's name
+
+## Customizing
+
+Every theme exposes its background image, accent colors, blur, and opacity as CSS variables at the top of the file (`:root { ... }`). Open the `.theme.css` file in any text editor and adjust:
+
+| Variable | Controls |
+|---|---|
+| `--backgroundImage` | Background image URL |
+| `--themeColor1` / `--themeColor2` | Accent gradient colors |
+| `--backgroundOpacity` | How visible the background image is |
+| `--backgroundBlur` | Background blur strength |
+| `--homeImage` | Server-list Direct Messages icon |
+
+Background images must be direct links (ending in `.jpg`, `.jpeg`, `.png`, or `.gif`) hosted somewhere Discord's client can load from — GitHub raw links (`raw.githubusercontent.com`) are recommended, as Discord CDN attachment links expire.
+
+## Support & Feedback
+
+Join the Discord server for updates, previews of new themes, and support:
+
+**[discord.gg/3cQMuTD5ge](https://discord.gg/3cQMuTD5ge)**
+
+Found a bug or want to suggest a theme? Open an issue or post in the server, and include:
+
+- The **theme name**
+- A **clear description** of the problem
+- A **screenshot**, if visual
+
+## License
+
+Released under the MIT License — free to use, modify, and share. Attribution appreciated but not required.
 
 ---
-
-## 🌐 Community
 
 <div align="center">
 
-### Join the Discord Community
-
-Looking for more themes, updates, previews, or want to suggest something?
-
-**[💬 Join the Discord Server](https://discord.gg/3cQMuTD5ge)**
+Made with care by **sae.codes**
 
 </div>
-
----
-
-## 🐛 Bug Reports & Suggestions
-
-Found a problem with a theme or have an idea for a new one?
-
-You're more than welcome to share it!
-
-When reporting a bug or submitting a suggestion, please provide as much information as possible.
-
-### Please include:
-
-- 🎨 **Theme Name**
-  - Tell us which theme you're using.
-
-- 📝 **Description**
-  - Clearly explain the issue or your suggestion.
-
-- 📸 **Screenshot**
-  - Add screenshots when they help demonstrate the problem.
-
-- 🔄 **Steps to Reproduce**
-  - If you're reporting a bug, explain how the issue can be reproduced.
-
-- 💻 **Discord Client**
-  - Mention whether you're using Vencord, BetterDiscord, or another supported client.
-
-> The more information you provide, the easier it is to understand and resolve the issue.
-
----
-
-# 🎨 Installation
-
-Before installing a theme, make sure you have **Vencord** or **BetterDiscord** installed and configured.
-
----
-
-## 📥 Step 1 — Download the Theme
-
-Download the `.css` file for the theme you want to use.
-
-Save it somewhere you can easily find it.
-
----
-
-## 📂 Step 2 — Open Your Themes Folder
-
-Open Discord and navigate to:
-
-**Settings → Themes → Open Themes Folder**
-
-This will open the folder where your Discord themes are stored.
-
----
-
-## 📄 Step 3 — Add the Theme
-
-Move or copy the downloaded `.css` file into your Discord themes folder.
-
-Your folder should look something like:
-
-```text
-themes/
-├── ThemeName.css
-├── AnotherTheme.css
-└── YourTheme.css
